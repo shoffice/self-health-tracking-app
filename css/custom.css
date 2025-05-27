@@ -1,0 +1,133 @@
+/* Hanya sembunyikan kolom Aksi saat halaman dicetak */
+@media print {
+    .no-print {
+        display: none;
+    }
+}
+
+.rectangle {
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    margin-top: 10px;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+body {
+    background-color: #D9E8F2;
+    /* alice-blue */
+    /* Light background color */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Custom font */
+}
+
+.logo-img {
+    max-width: 80px;
+    /* Set a smaller maximum width for the logo */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+.card {
+    background-color: #e1e9ef;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    /* columbia-blue */
+    /* Card background color */
+    border: none;
+    /* Remove card border */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    /* Add shadow for depth */
+    border-radius: 15px;
+    /* Round corners */
+}
+
+.card-body {
+    padding: 30px;
+    /* Add padding to the card body */
+}
+
+.btn {
+    margin: 10px 0;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.btn-utama {
+    background-color: #7890F8;
+    color: white;
+    border: none;
+}
+
+.btn-print {
+    background-color: #6a666b;
+    color: white;
+    border: none;
+}
+
+.btn-informasi {
+    background-color: #40485e;
+    opacity: 0.8;
+    color: white;
+    border: none;
+}
+
+.btn-kedua {
+    background-color: #DE636D;
+    color: white;
+    border: none;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.alert {
+    margin-bottom: 20px;
+    /* Add space below alerts */
+}
+
+.form-label {
+    font-weight: 600;
+    /* Bold label text */
+    color: #504D51;
+    /* davys-gray */
+}
+
+.form-control {
+    border-radius: 20px;
+    /* Round input fields */
+    border: 1px solid #B25058;
+    /* redwood */
+    /* Border color */
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    /* Default focus color */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    /* Focus shadow */
+}
+
+.footer {
+    margin-top: 5px;
+    /* Atur margin atas pada footer */
+    padding: 5px 0;
+    /* Tambahkan padding jika perlu */
+    text-align: center;
+    /* Rata tengah teks footer */
+
+    /* Ganti warna latar belakang footer */
+    font-size: smaller;
+    /* Tambahkan radius border jika diinginkan */
+}
+
+#loginChart {
+    width: 300px;
+    /* Ukuran lebar */
+    height: 200px;
+    /* Ukuran tinggi */
+}
